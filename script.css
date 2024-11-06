@@ -126,7 +126,7 @@
 }
 
 .produto_add_botao{
-    width: 188px;
+    width: 170px;
     height: 55px;
     font-size: 20px;
     font-weight: 500;
@@ -159,6 +159,10 @@
     background-color: var(--cor4);
     color: var(--cor2);
     border-color: var(--cor2);
+}
+
+.produto_nome{
+    font-size: 12px;
 }
 
 .header{
@@ -236,5 +240,13 @@
 
     .produto_add_botoes{
         gap: 40px;
+    }
+
+    .produto_add_botao{
+        width: 188px;
+    }
+
+    .produto_nome{
+        font-size: 15px;
     }
 }
