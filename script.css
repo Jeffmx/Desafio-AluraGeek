@@ -32,7 +32,8 @@
 
 .main{
     display: flex;
-    /* align-items: center; */
+    flex-direction: column-reverse;
+    align-items: center;
     gap: 7.6vh;
 }
 
@@ -40,31 +41,34 @@
     padding: 15px;
     display: flex;
     flex-direction: column;
-    margin: 12vh 7.5vh;
+    margin: 0%;
+    margin-bottom: 110px;
     gap: 40px;
     align-items: center;
+    width: 400px;
+    height: 517px;
 }
 
 .produtos_lista{
-    padding: 15px 64px 15px 15px;
-    width: 678px;
-    height: 971px;
+    display: grid;
+    row-gap: 78px;
+    column-gap: 30px;
+    grid-template-columns: 150px 150px;
+
+    width: 350px;
+    padding: 10px;
+    height: 105vh;
     
     box-shadow: -12px 10px 5.8px 0px #00000040;
     overflow: auto;
     overflow-x: hidden;
-    
-    display: grid;
-    column-gap: 10px;
-    row-gap: 78px;
-    grid-template-columns: auto auto auto;
 }
 
 .produtos_item{
     display: flex;
     flex-direction: column;
-    width: 196px;
-    height: 258px;
+    width: 145px;
+    height: 200px;
     gap:10px;
     padding: 10px;
     border-radius: 10px;
@@ -85,13 +89,13 @@
 }
 
 .produto_add{
-    margin: 110px 70px;
-    padding: 40px;
+    margin: 33px 0px 0px 0px;
+    padding: 10px 0px;
     gap: 40px;
     display: flex;
     flex-direction: column;
-    Width: 472px;
-    Height: 517px;
+    Width: 52vh;
+    Height: 57vh;
 }
 
 .produto_add_input{
@@ -196,33 +200,36 @@
     font-family: var(--ibm);
 }
 
-@media(width: 430px){
+@media(min-width: 770px){
     .main{
-    flex-direction: column-reverse;
+        flex-direction: row;
+        align-items: center;
     }
     
     .produtos_conteiner{
-        margin: 0%;
-        margin-bottom: 110px;
-        width: 400px;
-        height: 517px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        margin: 12vh 7.5vh;
+        gap: 40px;
+        align-items: center;
     }
-
+    
     .produtos_lista{
-        grid-template-columns: 150px 150px;
-        width: 350px;
-        padding: 10px;
-        column-gap: 30px;;
+        column-gap: 10px;
+        grid-template-columns: auto auto auto;
+    
+        width: 74vh;
+        padding: 15px 64px 15px 15px;
     }
     
     .produtos_item{
-        width: 145px;
-        height: 200px;
+        width: 196px;
+        height: 258px;
     }
 
     .produto_add{
-        margin: 33px 0px 0px 0px;
-        padding: 10px 0px;
-        width: auto;
+        margin: 110px 70px;
+        padding: 40px;
     }
 }
