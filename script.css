@@ -81,6 +81,11 @@
     font-weight: 400;
 }
 
+.produto_img{
+    height: 175px;
+    width: auto;
+}
+
 .produto_div{
     display: flex;
     justify-content: space-between;

@@ -1,4 +1,4 @@
-import { api } from "./api";
+import { api } from "./api.js";
 
 const lista = document.querySelector('[data-lista]');
 
@@ -18,10 +18,9 @@ export default function constuirProduto(nome, preco, imagem){
 
 async function listaProduto() {
     try{
-
-        const listaApi = await api.listaProduto();
-        listaApi.forEach(element => lista.appendChild(
-           constuirProduto(element.nome, element.preco, element.imagem)));
+        const listaApi = await api.mostarProdutos();
+        listaApi.forEach(elemento => lista.appendChild(
+           constuirProduto(elemento.nome, elemento.preco, elemento.imagem)));
     } catch {
         lista.innerHTML = '<h2 class="titulo">Não é possível carregar os produtos.</h2>'
     }

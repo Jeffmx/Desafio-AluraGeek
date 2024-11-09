@@ -17,7 +17,7 @@ async function criarProduto(nome, preco, imagem) {
     });
 
     if (!conexao.ok) {
-        throw new Error('Não foi possível enviar seu produto!')
+        throw new Error('Não foi possível enviar seu produto!');
     }
     
     const conexaoConvertida = await conexao.json();
@@ -27,3 +27,5 @@ async function criarProduto(nome, preco, imagem) {
 export const api = {
     mostarProdutos, criarProduto
 }
+
+mostarProdutos()

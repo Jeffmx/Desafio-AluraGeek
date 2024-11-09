@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="script.css">
     <title>AluraGeek</title>
+    <link rel="shortcut icon" href="./img/geek.ico" type="imagem/x-icon">
 </head>
 <body class="body">
     <header class="header">
@@ -19,20 +20,20 @@
             <h1 class="titulo_produto">MEUS PRODUTOS:</h1>
             
             <ul class="produtos_lista" data-lista>
-                
+
             </ul>
         </section>
 
-        <section class="produto_add">
+        <form class="produto_add" data-formulario>
             <h1 class="titulo_produto">ADICIONAR<br>PRODUTO:</br></h1>
-            <textarea class="produto_add_input" placeholder="Nome..."></textarea>
-            <textarea class="produto_add_input" placeholder="Valor..."></textarea>
-            <textarea class="produto_add_input" placeholder="Imagem..."></textarea>
+            <textarea class="produto_add_input" placeholder="Nome..." data-nome></textarea>
+            <textarea class="produto_add_input" placeholder="Valor..." data-preco></textarea>
+            <textarea class="produto_add_input" placeholder="Link da imagem..." data-imagem></textarea>
             <div class="produto_add_botoes">
-                <button class="produto_add_botao">Guardar</button>
-                <button class="produto_add_botao">Limpar</button>
+                <button class="produto_add_botao" type="submit">Guardar</button>
+                <button class="produto_add_botao" type="reset">Limpar</button>
             </div>
-        </section>
+        </form>
     </main>
     <footer class="footer">
         <div class="footer_geek">
@@ -41,6 +42,8 @@
         </div>
         <p class="footer_desc"><strong>Desenvolvido por Jefferson Monteiro</strong><br>Alura Latam- 2024</p>
     </footer>
-    <script src="./js/mostrarProdutos.js"></script>
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+    <script src="./js/adicionarProduto.js" type="module"></script>
+    
 </body>
 </html>
