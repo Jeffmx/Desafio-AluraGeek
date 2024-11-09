@@ -1,22 +1,28 @@
 {
   "produtos": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "Stormtrooper",
       "preco": 60,
       "imagem": "https://github.com/Jeffmx/Desafio-AluraGeek/blob/main/img/stormtrooper.png?raw=true"
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "Game Boy Classic",
       "preco": 60,
       "imagem": "https://github.com/Jeffmx/Desafio-AluraGeek/blob/main/img/gameboy.png?raw=true"
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "Tengen Toppa Gurren Lagann",
       "preco": "99.99",
       "imagem": "https://static.wikia.nocookie.net/fiction-battlefield/images/f/f8/TTGL.jpeg/revision/latest/smart/width/250/height/250?cb=20200324013649&path-prefix=pt-br"
+    },
+    {
+      "id": "4415",
+      "nome": "simon",
+      "preco": "50",
+      "imagem": "https://play-lh.googleusercontent.com/R8exBid1Po92PIe4MJayjxIM4RBtS-71FomtYSb53jlb6A1U31QTzBOyN1sHucTETA"
     }
   ]
 }
