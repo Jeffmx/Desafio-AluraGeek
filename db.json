@@ -1,10 +1,58 @@
 {
   "produtos": [
     {
-      "id": "1",
-      "nome": "enfim",
-      "preco": "50",
-      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb7UdjOx7GS19U1Xl1YBrxxBb8eCU5wUrYww&s"
+      "id": "2",
+      "nome": "Meias Devs",
+      "preco": "27,90",
+      "imagem": "https://www.happypopsox.com/cdn/shop/files/71fzkJYiKzL_1024x.jpg?v=1723743824"
+    },
+    {
+      "id": "3",
+      "nome": "Chainsaw Man",
+      "preco": "72,90",
+      "imagem": "https://p-bandai.com/img/us/p/m/N2727569001001_001.jpg"
+    },
+    {
+      "id": "4",
+      "nome": "FREE ROBUX",
+      "preco": "99999999999999",
+      "imagem": "https://tr.rbxcdn.com/30DAY-DynamicHeadCostume-B14CDBAEAE61FCECDA302821F7E661C9-Png/420/420/DynamicHeadCostume/Png/noFilter"
+    },
+    {
+      "id": "5",
+      "nome": "Caneca Dev",
+      "preco": "45,90",
+      "imagem": "https://i.etsystatic.com/22262046/r/il/163e8f/2229566183/il_570xN.2229566183_azuy.jpg"
+    },
+    {
+      "id": "6",
+      "nome": "Relíquia do Milénio",
+      "preco": "36,90",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5096YdMvsgzeNrneffCM7i0TX3wp53uk6lg&s"
+    },
+    {
+      "id": "7",
+      "nome": "SKIBIDI TOILET",
+      "preco": "63,90",
+      "imagem": "https://static-ca.gamestop.ca/images/products/790514/11scrmax4.jpg"
+    },
+    {
+      "id": "8",
+      "nome": "Camisa Dev",
+      "preco": "36,90",
+      "imagem": "https://images-cdn.ubuy.co.in/66f7c2c42457095fd84c1dd7-i-got-these-muscles-writing-code-funny.jpg"
+    },
+    {
+      "id": "9",
+      "nome": "Enki + Gurren Lagann",
+      "preco": "81,90",
+      "imagem": "https://media.entertainmentearth.com/assets/images/69447a8391e3433193cff3a8e566e10axl.jpg"
+    },
+    {
+      "id": "10",
+      "nome": "wei wei wei",
+      "preco": "18,90",
+      "imagem": "https://i1.sndcdn.com/artworks-vAN7oDF3HQaWxlUI-mXM4CA-t500x500.jpg"
     }
   ]
 }
