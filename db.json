@@ -1,3 +1,10 @@
 {
-  "produtos": []
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "enfim",
+      "preco": "50",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb7UdjOx7GS19U1Xl1YBrxxBb8eCU5wUrYww&s"
+    }
+  ]
 }
